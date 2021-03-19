@@ -5,14 +5,6 @@
 
 ## [「KigurumAR」をApp Storeで](https://apps.apple.com/jp/app/xxxxxxxx)
 
-<a href="https://apps.apple.com/jp/app/emosign/id1510650833?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-06-15&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a>
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=Emosign" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-![img](Image/IMG_0351.PNG)|![img](Image/IMG_0352.PNG)
-
-![img](Image/Capture20200525115445.png){:height="100%" width="100%"}
-
 ## 機能紹介
 ### VRMモデル読込
 VRMフォーマットに準拠した任意のモデルを読み込んで、3Dアバターとして使用する事が出来ます。
