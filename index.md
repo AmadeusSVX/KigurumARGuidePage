@@ -27,7 +27,6 @@ VRMフォーマットに準拠した任意のモデルを読み込んで、3Dア
 
 ## 実行環境
 Apple製のA12プロセッサ以降を搭載したiOSデバイス
-
 - [x] iPhone 12 Pro Max
 - [ ] iPhone 11 Pro
 - [ ] iPhone 11
