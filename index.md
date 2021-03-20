@@ -42,6 +42,7 @@ PBR（物理ベースレンダリング）のマテリアルを持つVRMモデ�
 
 ## 実行環境
 Apple製のA12プロセッサ以降を搭載したiOSデバイス
+**LiDAR搭載機種(iPhone12Pro/Pro Max、iPad Pro 11インチ（第2世代）、12.9インチ（第3世代）を推奨)**
 - [x] iPhone 12 Pro Max
 - [ ] iPhone 11 Pro
 - [ ] iPhone 11
@@ -51,9 +52,9 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス
 - [ ] iPhone XS Max
 - [ ] iPhone XS
 - [ ] iPhone XR
-- [ ] iPad Pro 12.9 インチ (第 4 世代)
-- [ ] iPad Pro 12.9 インチ (第 3 世代)
-- [ ] iPad Pro 11 インチ (第 2 世代)
+- [ ] iPad Pro 12.9 インチ (第4世代)
+- [ ] iPad Pro 12.9 インチ (第3世代)
+- [ ] iPad Pro 11 インチ (第2世代)
 - [ ] iPad Pro 11 インチ
 
 - [x] 動作確認済み
