@@ -74,11 +74,16 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 ### キーボード入力
 - **Enterキー**: 動画撮影ボタン
 - **Spaceキー**: 静止画撮影ボタン
+- **Aキー**: フェードイン・アウト
 - **Zキー**: グー（手）
 - **Xキー**: チョキ（手）
 - **Cキー**: パー（手）
 - **Vキー**: 指差し（手）
-- **↑キー**:
+- **BSキー**: Neutral(表情)
+- **↑キー**: Fun(表情)
+- **→キー**: Joy(表情)
+- **←キー**: Angry(表情)
+- **↓キー**: Sorrow(表情)
 
 ### VRMモデル読み込み
 アプリを起動して**右上のメニューボタンを押してメニューを出し、フォルダアイコンを押してVRMファイルを選択します。**<br>
@@ -110,7 +115,7 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 
 ### その他tips
 - 同じ被写体で同じVRMモデルを使用する場合、3Dアバターの高さ、大きさの調整は一度で済みます。**前回の選択モデルと調節結果は保存されるため、本撮影前に事前に調整しておくと撮影がスムーズに行えます。**
-- 人物消去、3Dポーズトラッキングは背景などの環境によって誤認識を起こすことがあります。うまく撮影できない場合は、場所（写る背景）を変えて試してみてください。
+- 人物消去、3Dポーズトラッキングは背景などの環境によって誤認識を起こすことがあります。 **うまく撮影できない場合は、場所（写る背景）を変えて試してみてください。**
 - 人物の姿勢によっては3Dポーズトラッキングの認識が正確に行えない場合があります。色々なポーズを試してみて、うまく認識できる場合、できない場合を確かめつつ撮影してみてください。
 - スカートを着ている場合は下半身のポーズトラッキングが安定しない場合があります。**撮影時にはパンツルックをお勧めします。**
 - 撮影距離が遠すぎるとポーズトラッキングが安定せず、近すぎると人物の認識が行われなくなります。何度か試して適切な距離感を掴んでみてください。
@@ -128,8 +133,8 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 - 2021/03/xx v0.9.0公開
 
 ## お問い合わせ
-- [お問い合わせページ](https://docs.google.com/forms/d/e/1FAIpQLSeM6epPLYCkLF4ngk_GQKEzkqP9Fn1FzsuyhnKS3RJylz_Klg/viewform)
+- [お問い合わせページ](https://docs.google.com/forms/xxxxx)
 - [Twitter](https://twitter.com/AmadeusSVX)
 
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=Emosign" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=KigurumAR" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
