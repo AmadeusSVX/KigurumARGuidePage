@@ -56,9 +56,10 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 - [ ] iPad Pro 12.9 インチ (第3世代)
 - [ ] iPad Pro 11 インチ (第2世代)
 - [ ] iPad Pro 11 インチ
-- [ ] iPad Air 
-- [ ] iPad 
-- [ ] iPad mini
+- [ ] iPad Air (第3世代)
+- [ ] iPad Air (第4世代)
+- [ ] iPad 10.2 インチ (第8世代)
+- [ ] iPad mini (第5世代)
 
 - [x] 動作確認済み
 
