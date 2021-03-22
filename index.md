@@ -1,9 +1,9 @@
-# KigurumAR
-- KigurumAR(きぐるまー)は、着ぐるみのようにVRMアバターを身に着けていつでもどこでも気軽に静止画、動画を撮影できるアプリです。
+# KigurumiAR
+- KigurumiAR(きぐるみあ)は、着ぐるみのようにVRMアバターを身に着けていつでもどこでも気軽に静止画、動画を撮影できるアプリです。
 - リアルの被写体の人の姿はカメラの視界から消去され、代わりに人と同じ動きをするVRMアバターがリアルタイムに表示されます。
 - Apple製のA12プロセッサ以降を搭載したiOSデバイス（iPhone/iPad）に対応しています。
 
-## [「KigurumAR」をApp Storeで](https://apps.apple.com/jp/app/xxxxxxxx)
+## [「KigurumiAR」をApp Storeで](https://apps.apple.com/jp/app/xxxxxxxx)
 
 ## 機能紹介
 ### VRMモデル読込
