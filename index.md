@@ -69,7 +69,7 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 
 ## 使い方
 ### 各部名称
-
+![Main](images/MainImage.png)
 
 ### キーボード入力
 - **Enter**: 動画撮影ボタン
