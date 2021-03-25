@@ -25,12 +25,13 @@ VRMフォーマットに準拠した任意のモデルを読み込んで、3Dア
 リップシンク機能の実装には凹み氏作の[uLipSync](https://github.com/hecomi/uLipSync)を使用させていただいています。
 
 ### 表情、手の表現
-表情はノーマルと喜怒哀楽の5種類、手はグー、チョキ、パー、指差しの4種類をアプリ画面上から随時選択する事が出来ます。
+表情はニュートラルと喜怒哀楽の5種類、手はグー、チョキ、パー、指差しの4種類をアプリ画面上から随時選択する事が出来ます。
 <img src="images/neutral.png" width="150">
-![嬉](images/joy.png)
-![怒](images/angry.png)
-![哀](images/sorrow.png)
-![楽](images/fun.png)<br>
+<img src="images/joy.png" width="150">
+<img src="images/angry.png" width="150">
+<img src="images/sorrow.png" width="150">
+<img src="images/fun.png" width="150">
+<br>
 ![グー](images/goo.png)
 ![チョキ](images/choki.png)
 ![パー](images/par.png)
