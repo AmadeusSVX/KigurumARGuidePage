@@ -1,37 +1,168 @@
-## Welcome to GitHub Pages
+# KigurumiAR
+- KigurumiAR(きぐるみあ)は、着ぐるみのようにVRMアバターを身に着けて気軽に静止画、動画を撮影できるアプリです。
+- リアルの被写体の人の姿はカメラの視界から消去され、代わりに人と同じ動きをするVRMアバターがリアルタイムに表示されます。
+- Apple製のA12プロセッサ以降を搭載したiOSデバイス（iPhone/iPad）に対応しています。
 
-You can use the [editor on GitHub](https://github.com/AmadeusSVX/KigurumARGuidePage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## [「KigurumiAR」をApp Storeで](https://apps.apple.com/jp/app/xxxxxxxx)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 機能紹介
+### VRMモデル読込
+VRMフォーマットに準拠した任意のモデルを読み込んで、3Dアバターとして使用する事が出来ます。
 
-### Markdown
+[VRMフォーマットについて](https://vrm.dev/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 3Dポーズトラッキング
+カメラの視界に入った人物のポーズ（手足の角度）を認識して、3Dアバターに反映させることができます
+![リアル](images/real.png)
+![アバター](images/augmented.png)
 
-```markdown
-Syntax highlighted code block
+### 人物消去、フェードイン/アウト
+カメラの視界に入った人物は、ポーズを認識されると同時に消去されて背景と同化するよう処理され、人物の姿を3Dアバターに置き換える事が出来ます。<br>
+リアル人物<-->3Dアバターでこの消去処理をフェードイン、フェードアウトさせて「変身」の演出を動画撮影することも出来ます。<br>
+<img src="images/Henshin.gif" width="150">
+<br>
 
-# Header 1
-## Header 2
-### Header 3
+**綺麗に人物消去を行うには、被写体、撮影の双方で注意する点があります。詳しくは使い方の撮影とtipsを参照ください**
 
-- Bulleted
-- List
+### リップシンク
+表示された3Dアバターは、入力される音声によってリップシンク（口パク）を行うことができます。<br>
+リップシンク機能の実装には凹み氏作の[uLipSync](https://github.com/hecomi/uLipSync)を使用させていただいています。<br>
+<img src="images/Aiueo.gif" width="150">
+<br>
+### 表情、手の表現
+表情はニュートラルと喜怒哀楽の5種類、手はグー、チョキ、パー、指差しの4種類をアプリ画面上から随時選択する事が出来ます。
+<img src="images/neutral.png" width="150">
+<img src="images/joy.png" width="150">
+<img src="images/angry.png" width="150">
+<img src="images/sorrow.png" width="150">
+<img src="images/fun.png" width="150">
+<br>
+![グー](images/goo.png)
+![チョキ](images/choki.png)
+![パー](images/par.png)
+![人指し](images/hitosashi.png)
 
-1. Numbered
-2. List
+### キーボードショートカット
+撮影操作、フェードイン・アウト、上記の表情、手の表現はBluetoothなどで接続されたキーボードによる遠隔入力が可能です。詳しくは使い方を参照ください。
 
-**Bold** and _Italic_ and `Code` text
+### 床面認識
+撮影環境内の床面や地面を自動で認識して、3Dアバターの影を落とすことができます。（まだ検証中です）<br>
+足元を含めて撮影する場合により「地に足の着いた」表現が出来るようになります。
 
-[Link](url) and ![Image](src)
-```
+### 照明推定
+自動で照明環境を推定して、光源の角度や色を取得して反映します。（まだ検証中です）<br>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+-----
 
-### Jekyll Themes
+## 実行環境
+Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
+**LiDAR搭載機種(iPhone12Pro/Pro Max、iPad Pro 11インチ（第2世代）、12.9インチ（第3世代）を推奨)**
+- [x] iPhone 12 Pro Max
+- [ ] iPhone 11 Pro
+- [ ] iPhone 11
+- [ ] iPhone 11 Pro Max
+- [ ] iPhone 11 Pro
+- [ ] iPhone 11
+- [ ] iPhone XS Max
+- [ ] iPhone XS
+- [ ] iPhone XR
+- [ ] iPad Pro 12.9 インチ (第4世代)
+- [ ] iPad Pro 12.9 インチ (第3世代)
+- [ ] iPad Pro 11 インチ (第2世代)
+- [ ] iPad Pro 11 インチ
+- [ ] iPad Air (第3世代)
+- [ ] iPad Air (第4世代)
+- [ ] iPad 10.2 インチ (第8世代)
+- [x] iPad mini (第5世代)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmadeusSVX/KigurumARGuidePage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- [x] 動作確認済み
 
-### Support or Contact
+[参考ページ(英語)](https://developer.apple.com/augmented-reality/arkit/)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+-----
+
+## 使い方
+### 各部名称
+![Main](images/MainImage.png)
+![Menu](images/MenuImage.png)<br>
+![Sub](images/ButtonSwapped.png)
+
+### キーボード入力 (オプション)
+- **Enter**: 動画撮影ボタン
+- **Space**: 静止画撮影ボタン
+- **A**: フェードイン・アウト
+- **Z**: グー（手）
+- **X**: チョキ（手）
+- **C**: パー（手）
+- **V**: 指差し（手）
+- **BS**: Neutral(表情)
+- **↑**: Fun(表情)
+- **→**: Joy(表情)
+- **←**: Angry(表情)
+- **↓**: Sorrow(表情)
+
+### VRMモデル読み込み
+アプリを起動して**メニューボタンを押してメニューを出し、VRMモデル読込ボタンを押してVRMファイルを選択します。**<br>
+Safariブラウザでダウンロードした場合はダウンロードフォルダに、Chromeブラウザの場合はChromeフォルダに保存されています。<br>
+ファイル選択後、VRMモデルをアバターとして使用する場合の許諾範囲・条件が表示されます。ユーザー本人が使用可能であることを確認してLoadボタンを押してください。<br>
+ダウンロードしたファイルがzip形式の場合は、あらかじめ他のアプリ（ファイルなど）で解凍してVRMファイルを出力してください。<br>
+**インストール直後は[アリシア・ソリッドちゃん](https://3d.nicovideo.jp/alicia/)がロードされており、VRMファイルを選択しなくても(規約の範囲内で)すぐ撮影が可能です**
+
+### 撮影準備
+通常の写真撮影と同じく、一人の場合と二人以上の場合では準備する物が異なります（現時点では手持ちでの自撮りには対応していません）。<br>
+- 一人の場合: **iPhone/iPad本体をスマートフォンを固定できる三脚に固定し、小型BluetoothキーボードをiPhone/iPad本体に接続して使えるようにします**
+- 二人の場合: **iPhone/iPad本体のみ** <br>
+後述する音声入力が必要な場合は、AirPodsなどの音声入力可能なBluetoothヘッドホン/イヤホンも準備して接続しておきます。
+
+### 撮影
+- アプリ開始時、カメラの視界内に人がいない、あるいは認識されないほど遠くにいる事を確認してください。人が認識されると人物消去処理が有効になります(※誤認識する場合もあります。tipsを参照してください)
+- iPhone/iPadから**2~4m離れた所からカメラの視界に入って、視界の真ん中まで移動してください（端にいたままだと背景にゴミが残ることがあります）**
+
+![Distance](images/Distance.png)
+- 人物が正常に消去され、同じ動きをする3Dアバターが出現している事を確認してください。
+- 3Dアバターが大きすぎる/小さすぎる場合はメニュー内のアバター拡大/縮小で調整してください。同様にアバターの足が地についていない場合はアバターの上下移動で調整してください。調節が済んだら撮影準備完了です。
+- **動画撮影ボタンで動画撮影を行います。** 動画撮影ボタンを押すとアイコンが白い〇から赤い■に変わり、撮影を始めます。もう一度押すと動画撮影を終了します。撮影された動画は「写真」アプリで閲覧できます。
+- **静止画撮影ボタンで動画撮影を行います。** 静止画撮影ボタンを押すと画面が一瞬白飛びして撮影したことを通知します。撮影された静止画は「写真」アプリで閲覧できます。
+- 撮影時、非撮影時に関わらず、画面上のボタンやキーボード入力でいつでも表情や手を変化させることができます。
+- 同様にフェードイン・アウトの操作も可能です。動画撮影時に「変身」の演出として活用できます。**画面上にフェードイン・アウトボタンを出すには、メニュー上で静止画<==>フェード入れ替えボタンを押してボタンの入れ替えを行ってください。**
+- **人物消去のクオリティを維持するために、撮影時はカメラを動かさない事を推奨します。** カメラをその場でパン（回転）する動作には対応していますが、人物消去した背景にズレが生じる事があります。また、カメラを移動しながらの撮影には今のところ対応していません。
+
+### 音声入力
+動画撮影時に音声を収録したい場合は、AirPodsなどの音声入力可能なBluetoothヘッドホン/イヤホンを使用して音声入力が可能です。
+入力された音声の母音に応じて3Dアバターがリップシンクを行います。被写体でなく、撮影者が音声入力する場合はiPhone/iPadのマイクを直接使用する事も出来ます。<br>
+**ヘッドホン使用時にエコーバック確認のために入力された音声がアプリから出力されます。エコーバックが不要な場合はボリュームを下げた状態でアプリを使用してください**
+
+### その他tips
+- **人物消去を行い、アバターに置き換わる対象は一人に限られます。** 誤認識が起きやすくなるため、カメラの視界内に他の人が入らないようにしてください。
+- 同じ被写体で同じVRMモデルを使用する場合、3Dアバターの高さ、大きさの調整は一度で済みます。<br>
+**前回の選択モデルと調節結果は保存されるため、本撮影前に事前に調整しておくと撮影がスムーズに行えます。**
+- 現在、顔の向きは正確にトラッキングできないため、**身体がカメラに向かって正面45°の範囲を向いている時はアバターの顔がカメラに向く** よう設定されています。
+また、それ以上の角度ではカメラ目線を維持するようになっています。
+- 撮影距離が遠すぎるとポーズトラッキングが安定せず、近すぎると人物の認識が行われなくなります。何度か試して適切な距離感を掴んでみてください。
+- 人物が完全に消去されず、**一部領域にゴミが残る場合は左右に動いてみてください。**
+- 人物消去、3Dポーズトラッキングは背景などの環境によって誤認識を起こすことがあります。 **うまく撮影できない場合は、場所（写る背景）を変えて試してみてください。**
+- 人物の姿勢によっては3Dポーズトラッキングの認識が正確に行えない場合があります。色々なポーズを試してみて、うまく認識できる場合、できない場合を確かめつつ撮影してみてください。
+- スカートを着ていると、下半身のポーズトラッキングが安定しない場合があります。**撮影時にはパンツルックをお勧めします。** <r>
+また、服装や髪形によっては前向き、後ろ向きを誤認しやすくなる場合があります。
+- 日中の屋外など、リアル人物の強い影が落ちる環境だと、アプリの光源推定で描画される影と矛盾した表示になる事があります。<br>
+アプリ開始時の向きで光源推定結果が変わる事があるのでこれで調整したり、足元を写さないなどで暫定対応してください。
+- 横位置でも人物消去、3Dアバターの表示は可能ですが、撮影される静止画、動画は縦長のままになるため、現時点では編集アプリなどで90°回転させる必要があります
+
+## 今後の予定
+- [ ] セルフタイマー追加
+- [ ] 光源推定、影の改善（影描画のオン・オフなど）
+- [ ] 横位置での撮影対応
+- [ ] 人物消去の品質改善
+- [ ] iOS多機種対応
+- [ ] Android版リリース
+- [ ] カメラの併進移動対応（できればやりたい）
+
+## 更新履歴
+- 2021/03/xx v0.9.0公開
+
+## お問い合わせ
+- [お問い合わせページ](https://docs.google.com/forms/xxxxx)
+- [Twitter](https://twitter.com/AmadeusSVX)
+
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=KigurumAR" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
