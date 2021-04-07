@@ -87,7 +87,7 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 ![Menu](images/MenuImage.png)<br>
 ![Sub](images/ButtonSwapped.png)
 
-### キーボード入力
+### キーボード入力 (オプション)
 - **Enter**: 動画撮影ボタン
 - **Space**: 静止画撮影ボタン
 - **A**: フェードイン・アウト
