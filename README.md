@@ -1,2 +1,2 @@
-# KigurumiARGuidePage
-Guide page for KigurumiAR app
+# KigurumiAR guide page
+Dogument for KigurumiAR app
