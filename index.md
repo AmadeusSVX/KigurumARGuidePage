@@ -165,6 +165,3 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 ## お問い合わせ
 - [お問い合わせページ](https://docs.google.com/forms/xxxxx)
 - [Twitter](https://twitter.com/AmadeusSVX)
-
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=KigurumAR" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
