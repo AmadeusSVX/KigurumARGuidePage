@@ -58,7 +58,7 @@ VRMフォーマットに準拠した任意のモデルを読み込んで、3Dア
 Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 **LiDAR搭載機種(iPhone12Pro/Pro Max、iPad Pro 11インチ（第2世代）、12.9インチ（第3世代）を推奨)**
 - [x] iPhone 12 Pro Max
-- [ ] iPhone 11 Pro
+- [ ] iPhone 12 Pro
 - [ ] iPhone 12
 - [ ] iPhone 12 mini
 - [ ] iPhone 11 Pro Max
