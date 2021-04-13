@@ -62,6 +62,7 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 - [ ] iPhone 11 Pro Max
 - [ ] iPhone 11 Pro
 - [ ] iPhone 11
+- [ ] iPhone SE (第2世代)
 - [ ] iPhone XS Max
 - [ ] iPhone XS
 - [ ] iPhone XR
