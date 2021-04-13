@@ -163,8 +163,5 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 - 2021/04/13 v0.8.0公開
 
 ## お問い合わせ
-- [お問い合わせページ](https://docs.google.com/forms/xxxxx)
+- [公式discordチャンネル](https://discord.gg/pYF9v758)
 - [Twitter](https://twitter.com/AmadeusSVX)
-
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw&hashtags=KigurumAR" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
