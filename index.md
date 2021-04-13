@@ -28,7 +28,7 @@ VRMフォーマットに準拠した任意のモデルを読み込んで、3Dア
 <img src="images/Aiueo.gif" width="150">
 <br>
 ### 表情、手の表現
-表情はニュートラルと喜怒哀楽の5種類、手はグー、チョキ、パー、指差しの4種類をアプリ画面上から随時選択する事が出来ます。
+表情はニュートラルと喜怒哀楽の5種類、手はグー、チョキ、パー、指差しの4種類をアプリ画面上から随時選択する事が出来ます。<br>
 <img src="images/neutral.png" width="150">
 <img src="images/joy.png" width="150">
 <img src="images/angry.png" width="150">
