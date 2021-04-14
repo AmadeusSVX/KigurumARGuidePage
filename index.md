@@ -3,6 +3,8 @@
 - リアルの被写体の人の姿はカメラの視界から消去され、代わりに人と同じ動きをするVRMアバターがリアルタイムに表示されます。
 - Apple製のA12プロセッサ以降を搭載したiOSデバイス（iPhone/iPad）に対応しています。
 
+## [KigurumiARクローズドベータDiscordチャンネル(現在TestFlight招待者限定です)](https://discord.gg/pYF9v758)
+
 ## 機能紹介
 ### VRMモデル読込
 VRMフォーマットに準拠した任意のモデルを読み込んで、3Dアバターとして使用する事が出来ます。
@@ -163,5 +165,5 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 - 2021/04/13 v0.8.0公開
 
 ## お問い合わせ
-- [お問い合わせページ](https://docs.google.com/forms/xxxxx)
+- [公式discordチャンネル](https://discord.gg/pYF9v758)
 - [Twitter](https://twitter.com/AmadeusSVX)
