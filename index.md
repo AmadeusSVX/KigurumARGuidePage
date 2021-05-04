@@ -88,8 +88,8 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 ### 各部名称
 ![Main](images/MainImage.png)
 ![Menu](images/MenuImage.png)<br>
-![Sub1](images/ButtonSwapped.png)<br>
-![Sub1](images/ButtonSwapped2.png)
+![Sub1](images/ButtonSwapped2.png)<br>
+![Sub2](images/ButtonSwapped.png)
 
 ### キーボード入力 (オプション)
 - **Enter**: 動画撮影ボタン
