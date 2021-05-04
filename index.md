@@ -63,13 +63,13 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 - [ ] iPhone 12
 - [ ] iPhone 12 mini
 - [ ] iPhone 11 Pro Max
-- [ ] iPhone 11 Pro
-- [ ] iPhone 11
-- [ ] iPhone SE (第2世代)
-- [ ] iPhone XS Max
-- [ ] iPhone XS
-- [ ] iPhone XR
-- [ ] iPad Pro 12.9 インチ (第4世代)
+- [x] iPhone 11 Pro
+- [x] iPhone 11
+- [x] iPhone SE (第2世代)
+- [x] iPhone XS Max
+- [x] iPhone XS
+- [x] iPhone XR
+- [x] iPad Pro 12.9 インチ (第4世代)
 - [ ] iPad Pro 12.9 インチ (第3世代)
 - [ ] iPad Pro 11 インチ (第2世代)
 - [ ] iPad Pro 11 インチ
@@ -88,7 +88,8 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 ### 各部名称
 ![Main](images/MainImage.png)
 ![Menu](images/MenuImage.png)<br>
-![Sub](images/ButtonSwapped.png)
+![Sub1](images/ButtonSwapped.png)<br>
+![Sub1](images/ButtonSwapped2.png)
 
 ### キーボード入力 (オプション)
 - **Enter**: 動画撮影ボタン
