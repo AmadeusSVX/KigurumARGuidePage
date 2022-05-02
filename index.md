@@ -124,7 +124,6 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 
 ![Dynamic](images/dynamic.png)
 ![Static](images/static.png)<br>
-    移動モード　　　　　　　　　静止モード
 
 後述する音声入力が必要な場合は、AirPodsなどの音声入力可能なBluetoothヘッドホン/イヤホンも準備して接続しておきます。
 
