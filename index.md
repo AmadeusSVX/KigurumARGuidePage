@@ -57,7 +57,17 @@ VRMフォーマットに準拠した任意のモデルを読み込んで、3Dア
 
 ## 実行環境
 Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
-**LiDAR搭載機種(iPhone12Pro/Pro Max、iPad Pro 11インチ（第2世代）、12.9インチ（第3世代）を推奨)**
+**LiDAR搭載機種(iPhone12~14Pro/Pro Max、iPad Pro 11インチ（第2世代）、12.9インチ（第3世代）を推奨)**
+- [ ] iPhone 14
+- [ ] iPhone 14 Plus
+- [ ] iPhone 14 Pro
+- [ ] iPhone 14 Pro Max
+- [ ] iPhone 13
+- [ ] iPhone 13 mini
+- [ ] iPhone 13 Pro
+- [ ] iPhone 13 Pro Max
+- [ ] iPhone 13
+- [ ] iPhone 13 mini
 - [x] iPhone 12 Pro Max
 - [ ] iPhone 12 Pro
 - [ ] iPhone 12
@@ -65,17 +75,24 @@ Apple製のA12プロセッサ以降を搭載したiOSデバイス<br>
 - [ ] iPhone 11 Pro Max
 - [x] iPhone 11 Pro
 - [x] iPhone 11
+- [ ] iPhone SE (第3世代)
 - [x] iPhone SE (第2世代)
 - [x] iPhone XS Max
 - [x] iPhone XS
 - [x] iPhone XR
+- [ ] iPad Pro 12.9 インチ (第6世代)
+- [ ] iPad Pro 12.9 インチ (第5世代)
 - [x] iPad Pro 12.9 インチ (第4世代)
 - [ ] iPad Pro 12.9 インチ (第3世代)
+- [ ] iPad Pro 11 インチ (第4世代)
+- [ ] iPad Pro 11 インチ (第3世代)
 - [ ] iPad Pro 11 インチ (第2世代)
 - [ ] iPad Pro 11 インチ
-- [ ] iPad Air (第3世代)
 - [ ] iPad Air (第4世代)
+- [ ] iPad Air (第3世代)
+- [ ] iPad 10.2 インチ (第9世代)
 - [ ] iPad 10.2 インチ (第8世代)
+- [ ] iPad mini (第6世代)
 - [x] iPad mini (第5世代)
 
 - [x] 動作確認済み
@@ -171,17 +188,21 @@ Safariブラウザでダウンロードした場合はダウンロードフォ�
 - ランドスケープ（横位置）でも人物消去、3Dアバターの表示は可能ですが、撮影される静止画、動画は縦長のままになるため、現時点では編集アプリなどで90°回転させる必要があります
 
 ## 今後の予定（優先順位順）
+- [ ] VRM1.0対応
+- [ ] ボディトラッキングアップデート
 - [ ] 光源推定、影の改善（影描画のオン・オフなど）
 - [ ] VRM連携サービス対応（現時点ではVRoid Hubを想定）
 - [ ] ランドスケープ（横位置）での撮影対応
 - [ ] 人物消去の品質改善
+- [ ] Android対応
 - [ ] iOS多機種対応
-- [ ] Android版リリース
+
 
 ## 更新履歴
 - 2021/04/13 v0.8.0公開
 - 2021/05/4 v0.8.0.5公開（セルフタイマー、VRMプレビュー追加）
 - 2022/05/2 v0.9.0公開（移動/静止モード、静止画/動画プレビュー追加）
+- 2022/05/2 v0.9.1公開（機種対応、今後の予定変更）
 
 ## お問い合わせ
 - [公式discordチャンネル](https://discord.gg/pYF9v758)
